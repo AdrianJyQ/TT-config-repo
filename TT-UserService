@@ -1,6 +1,6 @@
-server:
-    port: 8080
 spring:
+  application:
+    name: TT-UserService
   datasource:
     url: jdbc:mysql://localhost:3306/tt_userservice
     username: root
@@ -25,6 +25,6 @@ spring:
             authorization-uri: https://accounts.google.com/o/oauth2/auth
             token-uri: https://oauth2.googleapis.com/token
             user-info-uri: https://www.googleapis.com/oauth2/v3/userinfo
-jwt:
-  secret: a1B!c2D@e3F#g4H$i5J%k6LF#g4H$i5J%k6L^m7N&o8P*q9R(s0T
-  expirationMs: 36000000  # Expiración en milisegundos (10 horas)
+  jwt:
+    secret: a1B!c2D@e3F#g4H$i5J%k6LF#g4H$i5J%k6L^m7N&o8P*q9R
+    expirationMs: 36000000
