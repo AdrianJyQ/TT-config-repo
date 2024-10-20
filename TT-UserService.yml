@@ -28,3 +28,12 @@ spring:
 jwt:
     secret: a1B!c2D@e3F#g4H$i5J%k6LF#g4H$i5J%k6L^m7N&o8P*q9R
     expirationMs: 36000000
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "prometheus,health,info"
+  prometheus:
+    metrics:
+      export:
+        enabled: true
