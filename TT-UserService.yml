@@ -4,7 +4,7 @@ spring:
   datasource:
     url: jdbc:mysql://db:3306/tt_userservice
     driver-class-name: com.mysql.cj.jdbc.Driver
-    username: root
+    username: cibertec
     password: Calaverafeliz123?
   jpa:
     hibernate:
