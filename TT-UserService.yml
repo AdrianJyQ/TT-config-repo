@@ -1,10 +1,10 @@
-server:
+zserver:
     port: 8081
 spring:
     datasource:
-        url: ${DATASOURCE_URL}
-        username: ${DATASOURCE_USERNAME}
-        password: ${DATASOURCE_PASSWORD}
+        url: jdbc:mysql://db:3307/ProyectService
+        username: cibertec
+        password: Calaverafeliz123?
         driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
